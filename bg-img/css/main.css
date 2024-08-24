@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+
+ 
+    background-color: #2c2a2f;
+    padding: 20px;
+    align-items: center;
+ 
+}
+.nav-logo img{
+    height: 120px;
+
+}
+.nav-item ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+
+}
+.nav-item ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.bg-image{ 
+    background-image: url('https://www.fgdc.gov/img/slider/slider-bg-network.jpg/image');
+    color: white;
+    height: 100vh;
+    padding: 300px;
+    text-align: center;
+    font-size: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    padding: 0;
+    margin: 0;
+
+}
